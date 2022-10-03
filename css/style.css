@@ -1543,8 +1543,8 @@ h6 {
         bottom: 10px;
     }
     .founder-item_img {
-        width: unset;
-        max-width: unset;
+        max-width: 310px;
+        overflow: hidden;
         height: 250px;
         padding: 16px;
     }
