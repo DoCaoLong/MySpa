@@ -1509,6 +1509,13 @@ h6 {
         padding: 80px 0;
         margin-top: unset;
     }
+    .team-founder_list li {
+        max-width: 310px;
+    }
+    .team-founder_list li a {
+        max-width: 310px;
+        display: inline-block;
+    }
     .team-founder_list:after {
         content: "flickity";
         display: none; /* hide :after */
