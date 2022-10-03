@@ -184,3 +184,97 @@ h6 {
 .about-we_page .flickity-enabled.is-draggable .flickity-viewport {
     overflow: unset;
 }
+
+@media screen and (max-width: 1023.98px) {
+    .about-we_bg {
+        height: 380px;
+    }
+    .about-we_slider {
+        padding-bottom: unset;
+    }
+    .item-top {
+        padding: 0 48px;
+    }
+    .about-we_controls {
+        margin-top: unset;
+        padding: 48px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .about-we_content {
+        width: 100%;
+        padding: 16px 26px;
+        border-radius: 0 20px 0 20px;
+        margin: unset;
+        background-color: #fff;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .about-we_name {
+        font-size: 24px;
+        line-height: 36px;
+        color: #7161ba;
+    }
+    .about-we_position {
+        font-size: 12px;
+        line-height: 18px;
+        color: #7fc128;
+        margin-top: unset;
+        padding: 0;
+        background-color: unset;
+    }
+    .about-we_text {
+        font-size: 18px;
+        line-height: 28px;
+        color: #3b3a40;
+    }
+    .item-bottom {
+        margin-top: 24px;
+        padding: 0px 16px 16px 16px;
+        grid-gap: 16px 0;
+        border-radius: unset;
+        box-shadow: unset;
+        background-color: unset;
+    }
+    .about-we_img {
+        width: 90%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .about-we_img img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .item-top {
+        flex-direction: column-reverse;
+        position: relative;
+        padding: 0 36px;
+    }
+    .item-bottom h2 {
+        font-size: 18px;
+        text-align: left;
+    }
+    .item-bottom p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .control-left_img {
+        width: 54px;
+        height: 54px;
+    }
+    .about-we_controls {
+        padding: 20px;
+    }
+    .control-name {
+        font-size: 12px;
+        margin: 8px 0 0 0;
+    }
+    .control-position {
+        font-size: 10px;
+        text-transform: capitalize;
+        padding: 0;
+        color: #7fc128;
+        margin: 0 0 14px 0;
+    }
+}

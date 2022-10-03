@@ -19,8 +19,11 @@ $(".about-we_slider").flickity({
     face: true,
     draggable: true,
 });
-$(".button--previous").on("click", function () {
-    $carousel.flickity("previous");
+$(".control-right").on("click", function () {
+    $(".about-we_slider").flickity("next");
+});
+$(".control-left").on("click", function () {
+    $(".about-we_slider").flickity("previous");
 });
 const btnItems = document.querySelectorAll(".left-select_item");
 $(".gallery-left_select").on("click", ".left-select_item", function () {
