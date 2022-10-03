@@ -277,4 +277,22 @@ h6 {
         color: #7fc128;
         margin: 0 0 14px 0;
     }
+    .control-img_arrow {
+        width: 50%;
+    }
+    .control-img_arrow img {
+        width: 50%;
+    }
+}
+
+/* flickity-fade */
+
+.flickity-enabled.is-fade .flickity-slider > * {
+    pointer-events: none;
+    z-index: 0;
+}
+
+.flickity-enabled.is-fade .flickity-slider > .is-selected {
+    pointer-events: auto;
+    z-index: 1;
 }

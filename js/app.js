@@ -14,16 +14,19 @@ $(".about-we_slider").flickity({
     wrapAround: true,
     prevNextButtons: false,
     draggable: false,
-    // watchCSS: true,
     pageDots: false,
-    face: true,
+    fade: true,
     draggable: true,
 });
 $(".control-right").on("click", function () {
     $(".about-we_slider").flickity("next");
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+    return false;
 });
 $(".control-left").on("click", function () {
     $(".about-we_slider").flickity("previous");
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+    return false;
 });
 const btnItems = document.querySelectorAll(".left-select_item");
 $(".gallery-left_select").on("click", ".left-select_item", function () {
