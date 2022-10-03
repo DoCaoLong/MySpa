@@ -226,13 +226,13 @@ h6 {
 /* about product */
 .about-product {
     margin-top: 560px;
-    background-image: url("../img/bg-product.png");
+    /* background-image: url("../img/bg-product.png"); */
     background-size: cover;
     background-attachment: fixed;
     position: relative;
     width: 100%;
     padding: 32px 0 47px 0;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     filter: brightness(104%);
 }
 .about-product_container {
@@ -454,7 +454,7 @@ h6 {
     box-shadow: -9px 17px 52px rgba(113, 97, 186, 0.17);
     position: relative;
     width: 100%;
-    height: 1570px;
+    height: 1640px;
     margin: 0 auto;
 }
 .about-team .about-title {
@@ -504,6 +504,7 @@ h6 {
 .team-founder_item {
     background: linear-gradient(110.21deg, #e3e1f1 -3.45%, #f7f7ff 100%);
     border-radius: 20px;
+    overflow: hidden;
     position: relative;
     cursor: pointer;
     z-index: 10;
@@ -1510,7 +1511,7 @@ h6 {
         margin-top: unset;
     }
     .team-founder_list li {
-        max-width: 250px;
+        /* max-width: 250px; */
     }
     /* .team-founder_list li a {
         max-width: 310px;
@@ -1543,7 +1544,7 @@ h6 {
         bottom: 10px;
     }
     .founder-item_img {
-        width: 100%;
+        width: 200px;
         overflow: hidden;
         height: 300px;
         padding: 16px;
