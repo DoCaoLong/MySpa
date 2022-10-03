@@ -1475,7 +1475,7 @@ h6 {
 
     /* about team */
     .about-team {
-        height: 1324px;
+        height: 1350px;
     }
 
     .about-team_container {
@@ -1587,7 +1587,7 @@ h6 {
         line-height: 20px;
     }
     .team-lead_bottom {
-        margin-top: 45px;
+        margin-top: 8px;
     }
     .team-lead_bottom p:last-child {
         font-size: 12px;
