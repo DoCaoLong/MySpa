@@ -13,10 +13,9 @@ $(".team-founder_list").flickity({
 $(".about-we_slider").flickity({
     wrapAround: true,
     prevNextButtons: false,
-    draggable: false,
     pageDots: false,
     fade: true,
-    draggable: true,
+    draggable: false,
 });
 $(".control-right").on("click", function () {
     $(".about-we_slider").flickity("next");
