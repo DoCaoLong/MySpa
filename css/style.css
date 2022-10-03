@@ -1512,10 +1512,10 @@ h6 {
     .team-founder_list li {
         max-width: 310px;
     }
-    .team-founder_list li a {
+    /* .team-founder_list li a {
         max-width: 310px;
         display: inline-block;
-    }
+    } */
     .team-founder_list:after {
         content: "flickity";
         display: none; /* hide :after */
@@ -1543,7 +1543,7 @@ h6 {
         bottom: 10px;
     }
     .founder-item_img {
-        max-width: 310px;
+        width: 100%;
         overflow: hidden;
         height: 300px;
         padding: 16px;
