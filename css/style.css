@@ -1293,15 +1293,15 @@ h6 {
     }
 
     .about-page .about-banner_wrap .about-banner_text span:nth-child(2) {
-        font-size: 28px;
-        line-height: 34px;
+        font-size: 30px;
+        line-height: unset;
         top: 38px;
         left: -28%;
     }
     .about-page .about-banner_wrap .about-banner_text span:nth-child(3) {
         font-size: 20px;
-        line-height: 20px;
-        top: 84px;
+        line-height: unset;
+        top: 80px;
         left: -23%;
     }
     .about-page .about-banner_wrap .about-banner_text span:nth-child(4) {
@@ -1312,7 +1312,7 @@ h6 {
     }
     .about-page .about-banner_wrap .about-banner_text span:nth-child(5) {
         font-size: 34px;
-        line-height: 44px;
+        line-height: unset;
         top: 104px;
         left: 146px;
     }
@@ -1501,7 +1501,7 @@ h6 {
         padding-top: 24px;
     }
     .team-founder_item {
-        margin: 0 16px;
+        margin: 0 20px;
         transition: all 0.3s;
         border-radius: 8px;
     }
