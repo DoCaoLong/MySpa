@@ -121,7 +121,7 @@ h6 {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     position: absolute;
-    top: 126px;
+    top: 74px;
     left: -60%;
 }
 .about-page .about-banner_wrap .about-banner_text span:nth-child(3) {
@@ -135,8 +135,8 @@ h6 {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     position: absolute;
-    top: 46%;
-    left: -50%;
+    top: 36%;
+    left: -46%;
     z-index: -1;
 }
 .about-page .about-banner_wrap .about-banner_text span:nth-child(4) {
@@ -150,8 +150,8 @@ h6 {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     position: absolute;
-    left: 62%;
-    top: 40%;
+    left: 70%;
+    top: 34%;
     z-index: -1;
 }
 .about-page .about-banner_wrap .about-banner_text span:nth-child(5) {
@@ -162,8 +162,8 @@ h6 {
     text-transform: uppercase;
     color: #f5f5f7;
     position: absolute;
-    left: 82%;
-    bottom: 15%;
+    left: 88%;
+    bottom: 20%;
 }
 .about-we {
     box-shadow: -9px 17px 52px rgba(113, 97, 186, 0.17);
@@ -1001,23 +1001,24 @@ h6 {
         width: 300px;
     }
     .about-page .about-banner_wrap .about-banner_text span:nth-child(2) {
-        top: 64px;
+        top: 46px;
         left: -50%;
         font-size: 56px;
     }
     .about-page .about-banner_wrap .about-banner_text span:nth-child(3) {
         font-size: 36px;
-        top: 40%;
-        left: -38%;
+        top: 35%;
+        left: -36%;
     }
     .about-page .about-banner_wrap .about-banner_text span:nth-child(4) {
         font-size: 66px;
-        top: 34%;
+        top: 22%;
+        left: 64%;
     }
     .about-page .about-banner_wrap .about-banner_text span:nth-child(5) {
         font-size: 55px;
-        top: 60%;
-        left: 70%;
+        top: 50%;
+        left: 82%;
     }
     .about-we {
         width: calc(100vw - 100px);
@@ -1057,7 +1058,7 @@ h6 {
         width: 600px;
     }
     .about-product {
-        margin-top: 400px;
+        margin-top: 500px;
     }
     /* close about product */
 
@@ -1129,7 +1130,7 @@ h6 {
 
     /* about team */
     .about-team {
-        height: 1380px;
+        height: 1400px;
     }
     .about-team_container {
         width: 100%;
@@ -1294,26 +1295,26 @@ h6 {
     .about-page .about-banner_wrap .about-banner_text span:nth-child(2) {
         font-size: 28px;
         line-height: 34px;
-        top: 80px;
-        left: -32%;
+        top: 38px;
+        left: -28%;
     }
     .about-page .about-banner_wrap .about-banner_text span:nth-child(3) {
-        font-size: 16px;
+        font-size: 20px;
         line-height: 20px;
-        top: 115px;
-        left: -24%;
+        top: 84px;
+        left: -23%;
     }
     .about-page .about-banner_wrap .about-banner_text span:nth-child(4) {
         font-size: 36px;
         line-height: 49px;
-        top: 78px;
-        left: 120px;
+        top: 60px;
+        left: 138px;
     }
     .about-page .about-banner_wrap .about-banner_text span:nth-child(5) {
         font-size: 34px;
         line-height: 44px;
-        top: 118px;
-        left: 140px;
+        top: 104px;
+        left: 146px;
     }
     .about-we {
         width: calc(100vw - 32px);
