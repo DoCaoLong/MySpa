@@ -10,6 +10,32 @@ $(".team-founder_list").flickity({
     watchCSS: true,
     draggable: true,
 });
+$(".recruit-banner_slider").flickity({
+    draggable: false,
+    autoPlay: 5000,
+    pauseAutoPlayOnHover: false,
+    prevNextButtons: false,
+    pageDots: false,
+    selectedAttraction: 0.08,
+    friction: 1,
+    wrapAround: true,
+});
+$(".recruit-hr_slider").flickity({
+    autoPlay: 5000,
+    pauseAutoPlayOnHover: false,
+    prevNextButtons: false,
+    // selectedAttraction: 0.08,
+    // friction: 1,
+    wrapAround: true,
+});
+$(".recruit-top_slider").flickity({
+    autoPlay: 5000,
+    pauseAutoPlayOnHover: false,
+    prevNextButtons: false,
+    // selectedAttraction: 0.08,
+    // friction: 1,
+    wrapAround: true,
+});
 
 const btnItems = document.querySelectorAll(".left-select_item");
 $(".gallery-left_select").on("click", ".left-select_item", function () {
