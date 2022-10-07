@@ -36,6 +36,10 @@ h6 {
     overflow-wrap: break-word;
 }
 
+.job-page .link {
+    text-decoration: none;
+}
+
 .recruit-page {
     height: 100%;
     max-width: 1920px;
