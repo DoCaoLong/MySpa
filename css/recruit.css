@@ -98,6 +98,9 @@ h6 {
     color: #3b3a40;
     margin: 20px 0 10px 0;
 }
+.recruit-banner_text {
+    mix-blend-mode: color-burn;
+}
 .recruit-banner_img {
     width: 996px;
     height: 540px;
@@ -276,19 +279,26 @@ h6 {
     border: 2px solid #7161ba;
     border-radius: 50px;
     padding: 8px 16px;
-    font-weight: 700;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+.recruit-top_btn a {
+    font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     text-align: right;
     letter-spacing: -0.02em;
     color: #7161ba;
-    display: inline-block;
-    cursor: pointer;
+    transition: 0.3s linear;
+    text-decoration: none;
+}
+.recruit-top_btn:hover > a {
+    color: #fff;
     transition: 0.3s linear;
 }
 .recruit-top_btn:hover {
     background: #7161ba;
-    color: #fff;
     transition: 0.3s linear;
 }
 .recruit-top_bottom {
