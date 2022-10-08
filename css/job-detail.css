@@ -503,6 +503,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     }
     .jobDe-input_date {
         max-width: calc(100vw - 88px);
+        min-width: calc(100vw - 88px);
+        width: calc(100vw - 88px);
         min-height: 46px;
         position: relative;
         isolation: isolate;
