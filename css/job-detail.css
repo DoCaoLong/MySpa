@@ -389,6 +389,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 .jobDe-input_date {
     min-width: 326px;
+    min-height: 50px;
+    position: relative;
+    isolation: isolate;
 }
 /* input:invalid {
     border: 1px solid #ee6955;
