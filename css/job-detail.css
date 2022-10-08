@@ -502,14 +502,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         line-height: 20px;
     }
     .jobDe-input_date {
-        min-width: calc(100vw - 88px) !important;
+        min-width: calc(100vw - 100px) !important;
         min-height: 46px !important;
         height: 46px !important;
         text-align: left !important;
         font-size: 14px !important;
-        text-transform: uppercase !important;
-    }
-    input[type="date"]::-webkit-calendar-picker-indicator {
-        display: none;
+        text-transform: capitalize !important;
     }
 }
