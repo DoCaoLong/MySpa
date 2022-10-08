@@ -379,14 +379,14 @@ h6 {
     pointer-events: none;
 }
 
-input[type="date"]::-webkit-calendar-picker-indicator {
+/* input[type="date"]::-webkit-calendar-picker-indicator {
     opacity: 1;
     display: block;
     background-image: url(../img/job-detail-calendar.png);
     width: 20px;
     height: 20px;
     cursor: pointer;
-}
+} */
 /* input:invalid {
     border: 1px solid #ee6955;
 } */
