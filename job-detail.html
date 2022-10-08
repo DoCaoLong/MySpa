@@ -125,7 +125,8 @@
                             <span class="jobDe-text_error">Error message</span>
                         </div>
                         <div class="jobDe-wrap_input">
-                            <input class="jobDe-input" required type="date" id="birthday" name="birthday">
+                            <input value="DD-MM-YYYY" class="jobDe-input_date" required type="date" id="birthday"
+                                name="birthday">
                             <label for="birthday">Ngày tháng năm sinh </label>
                             <span class="jobDe-text_error">Error message</span>
                         </div>
@@ -305,7 +306,7 @@
             return /(84|0[3|5|7|8|9])+([0-9]{8})\b/.test(number);
         }
 
-        document.getElementById('birthday').valueAsDate = new Date();
+        // document.getElementById('birthday').valueAsDate = new Date();
 
     </script>
 </body>
