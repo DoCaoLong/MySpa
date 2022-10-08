@@ -502,6 +502,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         line-height: 20px;
     }
     .jobDe-input_date {
+        display: inline-block;
         min-width: calc(100vw - 88px) !important;
         min-height: 46px !important;
         height: 46px !important;
