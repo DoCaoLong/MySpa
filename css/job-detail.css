@@ -507,6 +507,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         height: 46px !important;
         text-align: left !important;
         font-size: 14px !important;
-        text-transform: lowercase !important;
+        text-transform: uppercase !important;
+    }
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        display: none;
     }
 }
