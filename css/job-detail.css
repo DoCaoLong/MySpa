@@ -387,12 +387,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     height: 20px;
     cursor: pointer;
 }
-.jobDe-input_date {
-    min-width: 326px;
-    min-height: 50px;
-    position: relative;
-    isolation: isolate;
-}
+
 /* input:invalid {
     border: 1px solid #ee6955;
 } */
@@ -505,5 +500,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     .jobDe-cus_label .jobDe-cus_label-text {
         font-size: 14px;
         line-height: 20px;
+    }
+    .jobDe-input_date {
+        min-width: calc(100vw - 288px);
+        min-height: 46px;
+        position: relative;
+        isolation: isolate;
+        text-align: left;
     }
 }
