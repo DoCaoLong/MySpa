@@ -163,18 +163,18 @@ ecosystemTab.forEach((item) =>
 
 // hover active bg section solutions
 let solutionsManager = document.querySelector(".solutions-manager");
-solutionsManager.addEventListener(
-    "mouseenter",
-    () =>
-        (solutionsManager.parentNode.parentNode.parentNode.previousElementSibling.style.opacity =
-            "1")
-);
-solutionsManager.addEventListener(
-    "mouseleave",
-    () =>
-        (solutionsManager.parentNode.parentNode.parentNode.previousElementSibling.style.opacity =
-            "0")
-);
+window.onresize = function () {
+    if (window.innerWidth < 768) {
+        solutionsManager.addEventListener("touchenter", active(1));
+        solutionsManager.addEventListener("touchleave", () => active(0));
+    } else {
+        solutionsManager.addEventListener("mouseenter", active(1));
+        solutionsManager.addEventListener("mouseleave", () => active(0));
+    }
+};
+const active = (opacity) => {
+    solutionsManager.parentNode.parentNode.parentNode.previousElementSibling.style.opacity = `${opacity}`;
+};
 // close hover active bg section solutions
 
 // ecosystem accordian
