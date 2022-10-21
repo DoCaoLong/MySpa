@@ -454,6 +454,9 @@ h6 {
     right: 0;
     bottom: 0;
 }
+.overlay-bg.active {
+    opacity: 1;
+}
 .solutions-elip {
     max-width: 920px;
     margin: 0 auto;
@@ -1357,6 +1360,7 @@ h6 {
     .solutions-manager_item span {
         font-size: 12px;
     }
+
     .solutions-manager:hover
         > .solutions-manager_wrap
         .solutions-manager_item:nth-child(4) {
