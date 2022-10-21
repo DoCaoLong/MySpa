@@ -50,9 +50,9 @@ $(".why-slider_list").slick({
     variableWidth: true,
     appendDots: $(".slick-slider-dots"),
     prevArrow:
-        '<button class="slide-arrow prev-arrow"><img src="./img/home/arrow_circle_left.svg"></button>',
+        '<button class="slide-arrow prev-arrow"><img src="./img/home/arrow_circle_left.svg" alt="arrow"></button>',
     nextArrow:
-        '<button class="slide-arrow next-arrow"><img src="./img/home/arrow_circle_left.svg"></button>',
+        '<button class="slide-arrow next-arrow"><img src="./img/home/arrow_circle_left.svg" alt="arrow"></button>',
     responsive: [
         {
             breakpoint: 767,
