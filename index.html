@@ -634,21 +634,27 @@
                         <h3>Nhận thông tin đầu tư</h3>
                         <form class="jojn-right_form">
                             <div class="join-wrap_input">
-                                <input required placeholder="Quỹ đầu tư" type="text">
+                                <input required placeholder="Quỹ đầu tư" type="text" name="fund" id="fund">
+                                <span class="error-text">error</span>
                             </div>
                             <div class="join-wrap_input">
-                                <input placeholder="Quốc tịch (nếu có)" type="text">
+                                <input name="nationality" id="nationality" placeholder="Quốc tịch (nếu có)" type="text">
+                                <span class="error-text">error</span>
                             </div>
                             <div class="join-wrap_input">
-                                <input required placeholder="Địa chỉ" type="text">
+                                <input name="address" id="address" required placeholder="Địa chỉ" type="text">
+                                <span class="error-text">error</span>
                             </div>
                             <div class="join-wrap_input">
-                                <input required placeholder="Email" type="text">
+                                <input name="email" id="email" required placeholder="Email" type="text">
+                                <span class="error-text">error</span>
                             </div>
                             <div class="join-wrap_input">
-                                <input required placeholder="Điện thoại" type="text">
+                                <input name="telephone" id="telephone" required placeholder="Điện thoại" type="text">
+                                <span class="error-text">error</span>
                             </div>
-                            <button type="submit">Gửi</button>
+
+                            <button class="join-btn_submit" type="submit">Gửi</button>
                         </form>
                     </div>
                 </div>

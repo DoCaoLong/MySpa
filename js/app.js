@@ -95,3 +95,78 @@ $(document).ready(function () {
     $("#lightgallery2").lightGallery();
     $("#lightgallery3").lightGallery();
 });
+
+let fund = document.getElementById("fund");
+let address = document.getElementById("address");
+let email = document.getElementById("email");
+let telephone = document.getElementById("telephone");
+
+let joinInput = document.querySelectorAll(".join-wrap_input");
+let joinBtnSubmit = document.querySelector(".join-btn_submit");
+let joinForm = document.querySelector(".jojn-right_form");
+
+joinBtnSubmit.addEventListener("click", (e) => {
+    e.preventDefault();
+    joinInput.forEach((item) => item.classList.remove("error"));
+    const values = checkValidate();
+    if (values) {
+        alert("Gửi đăng ký thành công");
+        console.log(values);
+        joinForm.reset();
+    }
+});
+
+const checkValidate = () => {
+    let valFund = fund.value.trim();
+    let valAddress = address.value.trim();
+    let valEmail = email.value.trim();
+    let valTelephone = telephone.value.trim();
+    let isCheck = true;
+
+    if (valFund === "") {
+        setError(fund, "Quỹ đầu tư không được để trống");
+        isCheck = false;
+    }
+    if (valAddress === "") {
+        setError(address, "Vui lòng nhập địa chỉ");
+        isCheck = false;
+    }
+    if (valEmail === "") {
+        setError(email, "Vui lòng nhập Email");
+        isCheck = false;
+    } else if (!isEmail(valEmail)) {
+        setError(email, "Email không đúng định dạng example@gmail.com");
+        isCheck = false;
+    }
+    if (valTelephone === "") {
+        setError(telephone, "Vui lòng nhập số điện thoại");
+        isCheck = false;
+    } else if (!isPhone(valTelephone)) {
+        setError(telephone, "Số điện thoại không đúng định dạng");
+        isCheck = false;
+    }
+
+    function setError(ele, message) {
+        let parentEle = ele.parentNode;
+        parentEle.classList.add("error");
+        parentEle.querySelector(".error-text").innerText = message;
+    }
+
+    if (isCheck)
+        return (values = {
+            fund: valFund,
+            address: valAddress,
+            email: valEmail,
+            telephone: valTelephone,
+        });
+};
+
+function isEmail(email) {
+    return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
+        email
+    );
+}
+
+function isPhone(number) {
+    return /(84|0[3|5|7|8|9])+([0-9]{8})\b/.test(number);
+}
